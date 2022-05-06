@@ -3,4 +3,6 @@ kind: Kustomization
 resources:
 - kafka-persistent.yaml
 - namespace.yaml
+- drpc.yaml
+- placementrule.yaml
 - cluster-operator/
